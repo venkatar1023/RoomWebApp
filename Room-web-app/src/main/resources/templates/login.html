@@ -1,0 +1,24 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-4.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org">
+
+<head>
+<title>London hotel|Login page</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+</head>
+
+<body>
+	<form th:action="@{/login}" method="post">
+		<div>
+			<label>User Name:<input type="text" name="username" /></label> 
+			<label>Password:<input type="password" name="password" /></label>
+		</div>
+		<div>
+			<input type="submit" value="login">
+		</div>
+	</form>
+
+</body>
+</html>
