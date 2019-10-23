@@ -8,6 +8,8 @@ public class RoomWebAppApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(RoomWebAppApplication.class, args);
+		System.out.println("welcome to spirng boot venkata............");
+		
 	}
 
 }
